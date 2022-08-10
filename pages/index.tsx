@@ -9,7 +9,7 @@ import AllProducts from '../components/AllProducts';
 const Home: NextPage = () => {
 
   const [currentView, setCurrentView] = useState(AllProducts);
-  
+
   return (
     <div className={styles.container}>
       <Head>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar></Navbar>
-      
+      <AllProducts></AllProducts>
     </div>
   )
 }
