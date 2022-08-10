@@ -11,18 +11,18 @@ const testData = [
     {
         productName: "",
         description: "",
-        price: "", 
-        quantity: 0, 
+        price: "",
+        quantity: 0,
         image: ""
     },
     {
         productName: "",
         description: "",
-        price: "", 
-        quantity: 0, 
+        price: "",
+        quantity: 0,
         image: ""
     }
-]
+];
 
 
 
