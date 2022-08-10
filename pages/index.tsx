@@ -4,8 +4,12 @@ import React, { useState } from 'react';
 // import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
+import AllProducts from '../components/AllProducts';
 
 const Home: NextPage = () => {
+
+  const [currentView, setCurrentView] = useState(AllProducts);
+  
   return (
     <div className={styles.container}>
       <Head>
