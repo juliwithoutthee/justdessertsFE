@@ -1,5 +1,33 @@
 import React, { useState } from "react";
 
-export default function AllProducts () {
-    
+const testData = [
+    {
+        productName: "",
+        description: "",
+        price: "",
+        quantity: 0,
+        image: ""
+    },
+    {
+        productName: "",
+        description: "",
+        price: "", 
+        quantity: 0, 
+        image: ""
+    },
+    {
+        productName: "",
+        description: "",
+        price: "", 
+        quantity: 0, 
+        image: ""
+    }
+]
+
+
+
+export default function AllProducts() {
+
+    return <>
+    </>
 }
