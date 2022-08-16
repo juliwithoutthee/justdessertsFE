@@ -5,7 +5,7 @@ export default function AllProducts() {
     const testData = [
         {
             productName: "Cake",
-            description: "A delicious three-tiered cake with buttercream frosting",
+            description: "Cake is a lie",
             price: 3000,
             quantity: 0,
             image: "/images/CarrotCake.webp",
@@ -28,10 +28,10 @@ export default function AllProducts() {
 
     return (
         <>
-            <div>
+            <div className="items">
                 {testData.map((el: any) => {
                     return (
-                        <div className="item">
+                        <div>
                             <h2>{el.productName}</h2>
                             <Image
                                 height={200}
