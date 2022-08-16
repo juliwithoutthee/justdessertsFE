@@ -50,6 +50,7 @@ export default function AllProducts() {
                             <Image
                                 height={200}
                                 width={200}
+                                objectFit={'cover'}
                                 src={el.image}
                                 alt={el.productName}
                             />
