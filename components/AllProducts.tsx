@@ -41,13 +41,17 @@ export default function AllProducts() {
                             />
                             <h3>{el.description}</h3>
                             <h3>¥{el.price}</h3>
-                            <select value="quantity">Quantity
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                            <div>
+                                <select value="quantity">Quantity
+                                    <option></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                                <button>Submit</button>
+                                </div>
                         </div>
                     );
                 })}
