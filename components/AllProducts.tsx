@@ -57,7 +57,6 @@ export default function AllProducts() {
                                     <option>4</option>
                                     <option>5</option>
                                 </select>
-                                <button>Submit</button>
                                 </div>
                                 <button>Add to Cart</button>
                         </div>
