@@ -24,6 +24,13 @@ export default function AllProducts() {
             quantity: 0,
             image: "/images/ChocolateChipCookies.jpeg",
         },
+        {
+            productName: "Apple Pie",
+            description: "A Pie with Apples",
+            price: 3500,
+            quantity: 0,
+            image: "/images/ApplePie.jpeg",
+        }
     ];
 
     return (
