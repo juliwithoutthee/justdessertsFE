@@ -31,7 +31,7 @@ export default function AllProducts() {
     return <>
         <div>
             {testData.map((el: any) => {
-                return <div> <h2>{el.productName}</h2>
+                return <div className="item"> <h2>{el.productName}</h2>
                     <h3>{el.description}</h3>
                     <h3>{el.price}</h3> </div>;
             })}
