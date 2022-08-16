@@ -48,8 +48,8 @@ export default function AllProducts() {
                         <div>
                             <h2>{el.productName}</h2>
                             <Image
-                                height={200}
-                                width={200}
+                                height={230}
+                                width={230}
                                 objectFit={'cover'}
                                 src={el.image}
                                 alt={el.productName}
