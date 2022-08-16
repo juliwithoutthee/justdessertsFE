@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function AllProducts() {
     const testData = [
         {
-            productName: "Cake",
+            productName: "Carrot Cake",
             description: "Cake is a lie",
             price: 3000,
             quantity: 0,
