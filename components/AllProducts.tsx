@@ -30,6 +30,13 @@ export default function AllProducts() {
             price: 3500,
             quantity: 0,
             image: "/images/ApplePie.jpeg",
+        },
+        {
+            productName: "Strawberry Cake",
+            description: "Cake with Strawberries",
+            price: 4500,
+            quantity: 0,
+            image: "/images/StrawberryShortCake.jpeg",
         }
     ];
 
