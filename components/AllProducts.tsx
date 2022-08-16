@@ -33,14 +33,14 @@ export default function AllProducts() {
                     return (
                         <div className="item">
                             <h2>{el.productName}</h2>
-                            <h3>{el.description}</h3>
-                            <h3>{el.price}</h3>
                             <Image
                                 height={200}
                                 width={200}
                                 src={el.image}
                                 alt={el.productName}
                             />
+                            <h3>{el.description}</h3>
+                            <h3>¥{el.price}</h3>
                         </div>
                     );
                 })}
