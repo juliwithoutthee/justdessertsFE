@@ -52,6 +52,7 @@ export default function AllProducts() {
                                 </select>
                                 <button>Submit</button>
                                 </div>
+                                <button>Add to Cart</button>
                         </div>
                     );
                 })}
