@@ -41,6 +41,7 @@ export default function AllProducts() {
                             />
                             <h3>{el.description}</h3>
                             <h3>¥{el.price}</h3>
+                            <select value="quantity"></select>
                         </div>
                     );
                 })}
