@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import StripeCheckout from "./StripeCheckout";
 
 export default function AllProducts() {
     const testData = [
@@ -66,7 +67,7 @@ export default function AllProducts() {
                                     <option>5</option>
                                 </select>
                                 </div>
-                                <button>Add to Cart</button>
+                                <StripeCheckout/>
                         </div>
                     );
                 })}
