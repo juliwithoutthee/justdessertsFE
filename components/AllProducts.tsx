@@ -44,7 +44,7 @@ export default function AllProducts() {
     return (
         <>
             <div className="items">
-                {testData.map((el: any) => {
+                {testData.map((el: any, key: Number) => {
                     return (
                         <div>
                             <h2>{el.productName}</h2>
