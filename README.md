@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Just Desserts Frontend
 
+Turn Stressed into Desserts!
+
 An application designed to help you order desserts when you're stressed!
 
 ## Getting Started
