@@ -6,21 +6,21 @@ export default function AllProducts() {
     const testData = [
         {
             productName: "Carrot Cake",
-            description: "Cake is a lie",
+            description: "Cake is a Lie",
             price: 3000,
             quantity: 0,
             image: "/images/CarrotCake.webp",
         },
         {
             productName: "Brownies",
-            description: "Chocolatey brownies",
+            description: "Chocolatey Brownies",
             price: 2000,
             quantity: 0,
             image: "/images/Brownies.jpeg",
         },
         {
             productName: "Cookies",
-            description: "Assorted cookies",
+            description: "Assorted Cookies",
             price: 1500,
             quantity: 0,
             image: "/images/ChocolateChipCookies.jpeg",
